@@ -1,5 +1,4 @@
-# ECHO-IDS Reproducibility Package
-
+# ECHO-IDS 
 This folder contains the executable research code for:
 
 **ECHO-IDS: Evidence-Calibrated Hallucination and Intrusion Detection for
@@ -8,11 +7,10 @@ LLM-Assisted Cyber-Physical Security**
 It packages the proposed method and its scientific evaluation pipeline without
 the manuscript, LaTeX tables, or graph-generation code.
 
-## Single-File Architecture
+## File Architecture
 
 The proposed architecture is consolidated in
-[`echo_ids_model.py`](echo_ids_model.py). This is the recommended file for
-reviewers who want one implementation containing the main method:
+[`echo_ids_model.py`](echo_ids_model.py). 
 
 - Variance-gated temporal CNN/TCN.
 - Protocol-role graph self-attention.
